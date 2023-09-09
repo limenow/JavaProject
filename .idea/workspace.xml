@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72762108-e67d-42ad-8a7b-8d071248e9dc" name="Changes" comment="First commit (C,R 추가 후  수정)">
-      <change afterPath="$PROJECT_DIR$/form/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form/나가기.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form/단어목록.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form/단어추가.png" afterDir="false" />
+    <list default="true" id="72762108-e67d-42ad-8a7b-8d071248e9dc" name="Changes" comment="#4 commit (Readme file add)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/form/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693900289464</updated>
-      <workItem from="1693900290471" duration="16562000" />
+      <workItem from="1693900290471" duration="16783000" />
     </task>
     <task id="LOCAL-00001" summary="First commit (기본 생성자와 함수 추가)">
       <option name="closed" value="true" />
@@ -93,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694268167047</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="#4 commit (Readme file add)">
+      <option name="closed" value="true" />
+      <created>1694268938440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694268938440</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +119,7 @@
     <MESSAGE value="First commit (기본 생성자와 함수 추가)" />
     <MESSAGE value="First commit (C,R 추가)" />
     <MESSAGE value="First commit (C,R 추가 후  수정)" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit (C,R 추가 후  수정)" />
+    <MESSAGE value="#4 commit (Readme file add)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#4 commit (Readme file add)" />
   </component>
 </project>
