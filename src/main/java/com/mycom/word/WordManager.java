@@ -26,14 +26,16 @@ public class WordManager {
         return scanner.nextInt();
     }
     public void start(){
-        while(true){
-        int menu = selectMenu();
-        switch(menu){
-            case 0: break;
-            case 1: wordCRUD.listAll();
-            case 4: wordCRUD.addWord();
+        while(true) {
+            int menu = selectMenu();
+            if(menu == 0) break;
+            if(menu == 4) {
+                wordCRUD.addWord();
+            }
+            else if(menu ==1) {
+                wordCRUD.listAll();
+            }
         }
         System.out.println("프로그램 종료! 다음에 만나요~");
     }
-}
 }

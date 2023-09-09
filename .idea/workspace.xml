@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72762108-e67d-42ad-8a7b-8d071248e9dc" name="Changes" comment="First commit (기본 생성자와 함수 추가)">
+    <list default="true" id="72762108-e67d-42ad-8a7b-8d071248e9dc" name="Changes" comment="First commit (C,R 추가)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693900289464</updated>
-      <workItem from="1693900290471" duration="15180000" />
+      <workItem from="1693900290471" duration="15593000" />
     </task>
     <task id="LOCAL-00001" summary="First commit (기본 생성자와 함수 추가)">
       <option name="closed" value="true" />
@@ -69,7 +66,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693930037240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit (C,R 추가)">
+      <option name="closed" value="true" />
+      <created>1694267692999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694267692999</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit (기본 생성자와 함수 추가)" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit (기본 생성자와 함수 추가)" />
+    <MESSAGE value="First commit (C,R 추가)" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit (C,R 추가)" />
   </component>
 </project>

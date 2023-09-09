@@ -15,7 +15,7 @@ public class WordCRUD implements ICRUD{
     public Object add() {
         System.out.print("=> 난이도(1,2,3) & 새 단어 입력 : ");
         int level = scanner.nextInt();
-        String word = scanner.next();
+        String word = scanner.nextLine();
 
         System.out.println("뜻 입력 : ");
         String meaning = scanner.nextLine();
