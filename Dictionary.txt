@@ -7,4 +7,4 @@
 1| tempt|유혹하다
 3| lease|임대차
 2| legislate|법률을 제정하다
-1| sweep|청소하다
+1| sweep|쓸다 
