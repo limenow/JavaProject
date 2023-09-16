@@ -28,19 +28,25 @@ public class WordCRUD implements ICRUD{
     }
     @Override
     public int update(Object obj) {
-        return 0;
+//        System.out.println("=> 수정할 단어 검색: ");
+//        String word = scanner.nextLine();
+//        return 0;
     }
-    public void updateWord(){}
+    public void updateWord(){
+
+    }
     @Override
     public int delete(Object obj) {
         return 0;
     }
-    public void deleteWord(){}
+    public void deleteWord(){
+
+    }
     @Override
     public void selectOne(int id) {
 
     }
-    public void listAll(){
+    public void listAll() {
         System.out.println("--------------------------------");
         for(int i = 0; i < list.size(); i++) {
             System.out.print((i+1) + " ");
@@ -48,4 +54,32 @@ public class WordCRUD implements ICRUD{
         }
         System.out.println("--------------------------------");
     }
+
+    public ArrayList<Integer> listAll(String keyword){
+        ArrayList<Integer> idlist = new ArrayList<>();
+        int j = 0;
+        System.out.println("--------------------------------");
+        for(int i = 0; i < list.size(); i++) {
+            String word = list.get(i).getWord();
+            if(!word.contains(keyword)) continue;
+            System.out.print((j+1) + " ");
+            System.out.println(list.get(i).toString());
+            idlist.add(i);
+            j++;
+        }
+        System.out.println("--------------------------------");
+        return idlist;
+    }
 }
+    public void listAll(int level) {
+        int j = 0;
+        System.out.println("--------------------------------");
+        for(int i = 0; i < list.size(); i++) {
+            int inputLevel = list.get(i).getLevel();
+            if(inputLevel != level) continue;
+            System.out.print((j+1) + " ");
+            System.out.println(list.get(i).toString());
+            j++;
+        }
+        System.out.println("--------------------------------");
+    }
